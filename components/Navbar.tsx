@@ -105,12 +105,12 @@ export default function Navbar() {
                 side="right"
                 className="w-[360px] border-[#2C2C2C] bg-[#080808] text-white px-6 py-8"
             >
-                <div className="mb-8 border-b border-[#2C2C2C] pb-6">
+                <div className="mb-1 border-b border-[#2C2C2C] pb-6">
                     <h2 className="text-2xl font-bold text-white">
                         PatchRoot
                     </h2>
                 </div>
-                <div className="mt-10 flex flex-col gap-2">
+                <div className="mt-4 flex flex-col gap-2">
 
                     <Link href="/" className="flex items-center gap-3 rounded-xl px-4 py-3 font-medium text-[#D9D9D9] transition-all hover:bg-[#141414] hover:text-white hover:translate-x-1">
                         <Home size={18}/> {t("home")}
