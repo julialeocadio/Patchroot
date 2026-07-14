@@ -1,6 +1,8 @@
 import {NextIntlClientProvider} from "next-intl";
 import {getMessages} from "next-intl/server";
 import { Metadata } from "next";
+import OrganizationSchema from "@/components/seo/OrganizationSchema";
+import ProfessionalServiceSchema from "@/components/seo/ProfessionalServiceSchema";
 
 export async function generateMetadata({
     params,
@@ -123,6 +125,10 @@ export default async function LocaleLayout({
     return (
         <html>
             <body>
+                <OrganizationSchema />
+
+                <ProfessionalServiceSchema />
+
                 <NextIntlClientProvider
                     messages={messages}>
                     {children}
