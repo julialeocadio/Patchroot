@@ -64,7 +64,15 @@
     "Us": {
         "title": "POR QUÉ ELEGIRNOS",
         "trusted": "Confiado por Empresas en Todo el Mundo",
-        "text": "Combinamos experiencia en ciberseguridad e ingeniería de software moderna para ofrecer soluciones digitales seguras para organizaciones de todos los tamaños."
+        "text": "Combinamos experiencia en ciberseguridad e ingeniería de software moderna para ofrecer soluciones digitales seguras para organizaciones de todos los tamaños.",
+        "t1": "Seguridad Integral",
+        "t2": "Servicios Internacionales",
+        "t3": "Informes Detallados",
+        "t4": "Equipo de Expertos",
+        "d1": "La seguridad es nuestra prioridad en cada proyecto, asegurando que las aplicaciones sean resistentes a amenazas y vulnerabilidades.",
+        "d2": "Ofrecemos servicios a nivel mundial, adaptándonos a las necesidades de cada cliente y cumpliendo con los estándares internacionales de seguridad.",
+        "d3": "Proporcionamos informes detallados que incluyen hallazgos, evaluaciones de riesgos y recomendaciones para mejorar la seguridad.",
+        "d4": "Nuestro equipo está compuesto por profesionales altamente capacitados en ciberseguridad y desarrollo de software, comprometidos con la excelencia y la innovación."
     },
 
     "Contact": {

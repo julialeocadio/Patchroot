@@ -4,6 +4,7 @@ import {Link} from "@/i18n/navigation";
 import { Globe } from "lucide-react";
 import Logo from "next/image";
 import { useTranslations } from "next-intl";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function Navbar() {
     const t = useTranslations("Navbar");
@@ -56,13 +57,7 @@ export default function Navbar() {
         {/* Right Side */}
         <div className="flex items-center gap-4">
 
-          <button className="flex items-center gap-2 rounded-lg border border-[#2C2C2C] px-4 py-2 text-sm text-[#D9D9D9] transition hover:border-[#E6007E]">
-
-            <Globe size={16} />
-
-            EN
-
-          </button>
+          <LanguageSwitcher />
 
           <button className="rounded-lg bg-[#E6007E] px-5 py-2.5 font-semibold text-white transition hover:bg-[#FF2E93]">
             {t("quote")}
