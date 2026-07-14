@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Mail } from "lucide-react";
+import { Mail, MessageCircle } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 export default function Footer() {
@@ -116,6 +116,16 @@ export default function Footer() {
             >
               <Mail size={18} />
               patchroot.tech@gmail.com
+            </a>
+
+            <a
+              href="https://wa.me/346731670175"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 text-[#B3B3B3] hover:text-white"
+            >
+              <MessageCircle size={18} />
+              +34 631 67 01 75
             </a>
 
           </div>
