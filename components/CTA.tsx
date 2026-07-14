@@ -2,37 +2,40 @@ import {
   Shield,
   Globe,
   FileText,
-  Cpu,
+  UsersRound,
 } from "lucide-react";
+import { useTranslations } from "next-intl";
 
-const features = [
+export default function WhyChoose() {
+  const t = useTranslations("Us");
+
+  const features = [
   {
     icon: Shield,
-    title: "Security First",
+    title: t("t1"),
     description:
-      "Every engagement follows secure development principles and industry best practices.",
+      t("d1"),
   },
   {
     icon: Globe,
-    title: "International Services",
+    title: t("t2"),
     description:
-      "Supporting clients worldwide in English, Portuguese and Spanish.",
+      t("d2"),
   },
   {
     icon: FileText,
-    title: "Detailed Reporting",
+    title: t("t3"),
     description:
-      "Executive and technical reports with clear findings, risk ratings and recommendations.",
+      t("d3"),
   },
   {
-    icon: Cpu,
-    title: "Modern Technologies",
+    icon: UsersRound,
+    title: t("t4"),
     description:
-      "Building secure, scalable and high-performance digital solutions using modern technologies.",
+      t("d4"),
   },
 ];
 
-export default function WhyChoose() {
   return (
     <section className="bg-[#080808] py-28">
 
@@ -41,20 +44,18 @@ export default function WhyChoose() {
         <div className="mx-auto mb-20 max-w-3xl text-center">
 
           <span className="rounded-full border border-[#E6007E]/30 bg-[#E6007E]/10 px-4 py-2 text-sm text-[#FF2E93]">
-            WHY CHOOSE US
+            {t("title")}
           </span>
 
           <h2 className="mt-8 text-5xl font-bold text-white">
 
-            Trusted by Businesses Worldwide
+            {t("trusted")}
 
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-[#B3B3B3]">
 
-            We combine cybersecurity expertise and modern software
-            engineering to deliver secure digital solutions for
-            organizations of all sizes.
+            {t("text")}
 
           </p>
 

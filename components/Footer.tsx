@@ -1,7 +1,10 @@
 import Link from "next/link";
 import { Mail } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 export default function Footer() {
+  const t = useTranslations("Footer");
+
   return (
     <footer className="border-t border-[#2C2C2C] bg-[#080808]">
 
@@ -12,16 +15,11 @@ export default function Footer() {
         <div>
 
           <h2 className="text-2xl font-bold text-white">
-            Secure Digital
+            {t("title")}
           </h2>
 
-          <span className="text-[#E6007E]">
-            Solutions
-          </span>
-
           <p className="mt-6 leading-7 text-[#B3B3B3]">
-            Professional penetration testing and secure web
-            development for businesses worldwide.
+            {t("subtitle")}
           </p>
 
         </div>
@@ -31,32 +29,32 @@ export default function Footer() {
         <div>
 
           <h3 className="mb-6 font-semibold text-white">
-            Services
+            {t("services")}
           </h3>
 
           <ul className="space-y-3 text-[#B3B3B3]">
 
             <li>
               <Link href="/services">
-                Penetration Testing
+                {t("service1")}
               </Link>
             </li>
 
             <li>
               <Link href="/services">
-                Web Development
+                {t("service2")}
               </Link>
             </li>
 
             <li>
               <Link href="/services">
-                Security Consulting
+                {t("service3")}
               </Link>
             </li>
 
             <li>
               <Link href="/services">
-                Vulnerability Assessment
+                {t("service4")}
               </Link>
             </li>
 
@@ -69,32 +67,32 @@ export default function Footer() {
         <div>
 
           <h3 className="mb-6 font-semibold text-white">
-            Company
+            {t("company")}
           </h3>
 
           <ul className="space-y-3 text-[#B3B3B3]">
 
             <li>
               <Link href="/about">
-                About
+                {t("about")}
               </Link>
             </li>
 
             <li>
               <Link href="/blog">
-                Blog
+                {t("blog")}
               </Link>
             </li>
 
             <li>
               <Link href="/contact">
-                Contact
+                {t("contact")}
               </Link>
             </li>
 
             <li>
               <Link href="/privacy">
-                Privacy Policy
+                {t("privacy")}
               </Link>
             </li>
 
@@ -107,17 +105,17 @@ export default function Footer() {
         <div>
 
           <h3 className="mb-6 font-semibold text-white">
-            Contact
+            {t("contact")}
           </h3>
 
           <div className="space-y-4">
 
             <a
-              href="mailto:contact@company.com"
+              href="mailto:patchroot.tech@gmail.com"
               className="flex items-center gap-3 text-[#B3B3B3] hover:text-white"
             >
               <Mail size={18} />
-              contact@company.com
+              patchroot.tech@gmail.com
             </a>
 
           </div>
@@ -133,7 +131,7 @@ export default function Footer() {
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 py-6 text-sm text-[#707070] md:flex-row">
 
           <p>
-            © 2026 Secure Digital Solutions. All rights reserved.
+            © 2026 PatchRoot Tech. All rights reserved.
           </p>
 
           <div className="flex gap-6">

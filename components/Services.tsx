@@ -1,6 +1,8 @@
 import { ShieldCheck, Code2, ArrowRight } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 export default function Services() {
+  const t = useTranslations("Services");
   return (
     <section className="bg-[#080808] py-28">
 
@@ -11,19 +13,18 @@ export default function Services() {
         <div className="mx-auto mb-20 max-w-3xl text-center">
 
           <span className="rounded-full border border-[#E6007E]/30 bg-[#E6007E]/10 px-4 py-2 text-sm text-[#FF2E93]">
-            OUR SERVICES
+            {t("services")}
           </span>
 
           <h2 className="mt-8 text-5xl font-bold text-white">
 
-            Development
+            {t("title")}
 
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-[#B3B3B3]">
 
-            We combine cybersecurity expertise and modern software
-            development to help organizations build secure applications.
+            {t("subtitle")}
 
           </p>
 
@@ -48,35 +49,33 @@ export default function Services() {
 
             <h3 className="text-3xl font-bold text-white">
 
-              Penetration Testing
+              {t("service1")}
 
             </h3>
 
             <p className="mt-5 leading-8 text-[#B3B3B3]">
 
-              Identify vulnerabilities before attackers do through
-              comprehensive security assessments based on industry
-              best practices.
+              {t("service1Description")}
 
             </p>
 
             <ul className="mt-8 space-y-3 text-[#D9D9D9]">
 
-              <li>• Web Application Testing</li>
+              <li>• {t("s1")}</li>
 
-              <li>• API Security</li>
+              <li>• {t("s2")}</li>
 
-              <li>• Network Assessments</li>
+              <li>• {t("s3")}</li>
 
-              <li>• Vulnerability Reports</li>
+              <li>• {t("s4")}</li>
 
-              <li>• Remediation Guidance</li>
+              <li>• {t("s5")}</li>
 
             </ul>
 
             <button className="mt-10 flex items-center gap-2 font-semibold text-[#E6007E]">
 
-              Learn More
+              {t("learnMore")}
 
               <ArrowRight size={18} />
 
@@ -99,35 +98,33 @@ export default function Services() {
 
             <h3 className="text-3xl font-bold text-white">
 
-              Web Development
+              {t("service2")}
 
             </h3>
 
             <p className="mt-5 leading-8 text-[#B3B3B3]">
 
-              We design and develop websites and
-              web applications with security integrated from the
-              very beginning.
+              {t("service2Description")}
 
             </p>
 
             <ul className="mt-8 space-y-3 text-[#D9D9D9]">
 
-              <li>• Corporate Websites</li>
+              <li>• {t("s6")}</li>
 
-              <li>• Web Applications</li>
+              <li>• {t("s7")}</li>
 
-              <li>• E-commerce</li>
+              <li>• {t("s8")}</li>
 
-              <li>• REST APIs</li>
+              <li>• {t("s9")}</li>
 
-              <li>• Ongoing Maintenance</li>
+              <li>• {t("S10")}</li>
 
             </ul>
 
             <button className="mt-10 flex items-center gap-2 font-semibold text-[#E6007E]">
 
-              Learn More
+              {t("learnMore")}
 
               <ArrowRight size={18} />
 

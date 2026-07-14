@@ -1,6 +1,8 @@
-import { ArrowRight, CalendarDays } from "lucide-react";
+import { ArrowRight } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 export default function CTA() {
+  const t = useTranslations("Metrics");
   return (
     <section className="bg-[#080808] py-28">
       <div className="mx-auto max-w-6xl px-6">
@@ -12,34 +14,24 @@ export default function CTA() {
           <div className="relative text-center">
 
             <span className="rounded-full border border-[#E6007E]/30 bg-[#E6007E]/10 px-4 py-2 text-sm text-[#FF2E93]">
-              LET'S WORK TOGETHER
+              {t("together")}
             </span>
 
             <h2 className="mt-8 text-4xl font-bold text-white md:text-5xl">
-              Ready to Secure Your Next Project?
+              {t("start")}
             </h2>
 
             <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-[#B3B3B3]">
-              Whether you need a professional penetration test or a
-              modern and secure web application, our team is ready
-              to help you achieve your goals.
+              {t("text")}
             </p>
 
             <div className="mt-10 flex flex-wrap justify-center gap-4">
 
               <button className="flex items-center gap-2 rounded-xl bg-[#E6007E] px-8 py-4 font-semibold text-white transition hover:bg-[#FF2E93]">
 
-                Request a Quote
+                {t("quote")}
 
                 <ArrowRight size={18} />
-
-              </button>
-
-              <button className="flex items-center gap-2 rounded-xl border border-[#2C2C2C] px-8 py-4 text-white transition hover:border-[#E6007E] hover:bg-[#2C2C2C]">
-
-                <CalendarDays size={18} />
-
-                Schedule a Meeting
 
               </button>
 

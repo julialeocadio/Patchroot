@@ -1,0 +1,100 @@
+{
+  "Navbar": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Nosotros",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "quote": "Solicitar Cotización"
+  },
+
+    "Hero": {
+        "title": "PatchRoot",
+        "subtitle": "Identificamos vulnerabilidades de seguridad a través de pruebas de penetración profesionales y creamos aplicaciones web modernas y seguras.",
+        "quote": "Solicitar Cotización",
+        "trust": "Confiado Mundialmente",
+        "start": "Comenzar",
+        "contact": "Contáctenos"
+    },
+
+    "Services": {
+            "title": "Servicios de Desarrollo y Seguridad",
+            "subtitle": "Combinamos desarrollo de software moderno para ayudar a las organizaciones a construir aplicaciones seguras con evaluaciones de seguridad y vulnerabilidad para identificar y mitigar riesgos.",
+            "services": "NUESTROS SERVICIOS",
+            "service1": "Pruebas de Penetración",
+            "service2": "Desarrollo de Aplicaciones Web",
+            "service1Description": "Identifique vulnerabilidades antes que los atacantes a través de evaluaciones de seguridad integrales basadas en las mejores prácticas de la industria.",
+            "service2Description": "Desarrollamos sitios web y aplicaciones web con seguridad integrada desde el principio.",
+            "s1": "Pruebas de Penetración de Aplicaciones Web",
+            "s2": "Evaluación de Red",
+            "s3": "Pruebas de Seguridad de API",
+            "s4": "Informes de Vulnerabilidad",
+            "s5": "Orientación de Remediación",
+            "s6": "Desarrollo de Sitios Web Corporativos",
+            "s7": "Desarrollo de Comercio Electrónico",
+            "s8": "Desarrollo de Aplicaciones Web Personalizadas",
+            "s9": "Desarrollo de API RESTful",
+            "S10": "Mantenimiento y Soporte",
+            "learnMore": "Saber Más"
+        },
+
+    "Footer": {
+        "title": "PatchRoot",
+        "subtitle": "Pruebas de penetración profesionales y desarrollo web seguro para empresas en todo el mundo.",
+        "services": "Servicios",
+        "service1": "Pruebas de Penetración",
+        "service2": "Desarrollo de Aplicaciones Web",
+        "service3": "Consultoría de Seguridad",
+        "service4": "Evaluaciones de Vulnerabilidad",
+        "company": "Empresa",
+        "about": "Nosotros",
+        "blog": "Blog",
+        "contact": "Contacto",
+        "privacy": "Política de Privacidad",
+        "quote": "Solicitar Cotización"
+    },
+
+    "Metrics": {
+        "quote": "Solicitar Cotización",
+        "together": "VAMOS TRABAJAR JUNTOS",
+        "start": "¿Listo para Proteger tu Próximo Proyecto?",
+        "text": "Si necesitas una prueba de penetración profesional o una aplicación web moderna y segura, nuestro equipo está listo para ayudarte a alcanzar tus objetivos."
+    },
+
+    "Us": {
+        "title": "POR QUÉ ELEGIRNOS",
+        "trusted": "Confiado por Empresas en Todo el Mundo",
+        "text": "Combinamos experiencia en ciberseguridad e ingeniería de software moderna para ofrecer soluciones digitales seguras para organizaciones de todos los tamaños."
+    },
+
+    "Contact": {
+        "title": "Contáctenos",
+        "subtitle": "¡Nos encantaría saber de usted! Complete el formulario a continuación y nos pondremos en contacto con usted lo antes posible.",
+        "name": "Nombre",
+        "email": "Correo electrónico",
+        "message": "Mensaje",
+        "submit": "Enviar"
+    },
+
+    "Blog": {
+        "title": "Blog",
+        "subtitle": "Manténgase al día con las últimas noticias y artículos de PatchRoot Tech.",
+        "readMore": "Leer Más"
+    },
+
+    "About": {
+        "title": "Sobre Nosotros",
+        "subtitle": "PatchRoot Tech es un proveedor líder de servicios de ciberseguridad y desarrollo web. Ayudamos a las organizaciones a identificar y mitigar riesgos de seguridad, además de construir aplicaciones web seguras.",
+        "mission": "Nuestra misión es proporcionar a nuestros clientes el más alto nivel de servicios de seguridad y desarrollo, ayudándoles a alcanzar sus objetivos comerciales.",
+        "vision": "Nuestra visión es ser el principal proveedor de servicios de ciberseguridad y desarrollo web, ayudando a las organizaciones en todo el mundo a construir negocios seguros y exitosos."
+    },
+
+    "Quote": {
+        "title": "Solicitar una Cotización",
+        "subtitle": "Complete el formulario a continuación y nos pondremos en contacto con usted con una cotización para nuestros servicios.",
+        "name": "Nombre",
+        "email": "Correo electrónico",
+        "message": "Mensaje",
+        "submit": "Enviar"
+    }
+}

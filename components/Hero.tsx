@@ -1,8 +1,11 @@
 "use client";
 
 import { ArrowRight, ShieldCheck } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 export default function Hero() {
+  const t = useTranslations("Hero");
+
     return (
         <section className="relative overflow-hidden bg-[#080808] text-white">
 
@@ -25,30 +28,20 @@ export default function Hero() {
               />
 
               <span className="text-sm text-[#FF2E93]">
-                Trusted Worldwide
+                {t("trust")}
               </span>
 
             </div>
 
             <h1 className="text-5xl font-black leading-tight md:text-7xl">
 
-              Secure
-
-              <span className="block text-[#E6007E]">
-
-                Digital Solutions
-
-              </span>
+              PatchRoot
 
             </h1>
 
             <p className="mt-8 max-w-xl text-lg leading-8 text-[#D9D9D9]">
 
-              We identify security
-              vulnerabilities through professional
-              penetration testing.
-              We also create modern,
-              scalable and secure web applications.
+              {t("subtitle")}
 
             </p>
 
@@ -56,7 +49,7 @@ export default function Hero() {
 
               <button className="flex items-center gap-2 rounded-xl bg-[#E6007E] px-7 py-4 font-semibold transition hover:bg-[#FF2E93]">
 
-                Get Started
+                {t("start")}
 
                 <ArrowRight size={18} />
 
@@ -64,7 +57,7 @@ export default function Hero() {
 
               <button className="rounded-xl border border-[#2C2C2C] px-7 py-4 transition hover:border-[#E6007E] hover:bg-[#141414]">
 
-                Contact Us
+                {t("contact")}
 
               </button>
 
