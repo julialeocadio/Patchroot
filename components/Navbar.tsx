@@ -1,10 +1,15 @@
 "use client";
 
 import {Link} from "@/i18n/navigation";
-import { Globe } from "lucide-react";
 import Logo from "next/image";
 import { useTranslations } from "next-intl";
 import LanguageSwitcher from "./LanguageSwitcher";
+import {Menu} from "lucide-react";
+import {
+    Sheet,
+    SheetContent,
+    SheetTrigger
+} from "@/components/ui/sheet";
 
 export default function Navbar() {
     const t = useTranslations("Navbar");
@@ -55,7 +60,7 @@ export default function Navbar() {
         </nav>
 
         {/* Right Side */}
-        <div className="flex items-center gap-4">
+        <div className="hidden items-center gap-4 lg:flex">
 
           <LanguageSwitcher />
 
@@ -65,7 +70,65 @@ export default function Navbar() {
 
         </div>
 
-      </div>
+        {/* Mobile */}
+        <div className="flex items-center gap-3 lg:hidden">
+
+        <LanguageSwitcher />
+
+        <Sheet>
+
+            <SheetTrigger>
+                <button>
+                    <Menu />
+                </button>
+
+            </SheetTrigger>
+
+            <SheetContent
+                side="right"
+                className="w-[320px] border-[#2C2C2C] bg-[#080808] text-white"
+            >
+
+                <div className="mt-10 flex flex-col gap-6">
+
+                    <Link href="/">
+                        {t("home")}
+                    </Link>
+
+                    <Link href="/services">
+                        {t("services")}
+                    </Link>
+
+                    <Link href="/about">
+                        {t("about")}
+                    </Link>
+
+                    <Link href="/blog">
+                        {t("blog")}
+                    </Link>
+
+                    <Link href="/contact">
+                        {t("contact")}
+                    </Link>
+
+                </div>
+
+                <div className="mt-6 border-t border-[#2C2C2C] pt-6">
+                    <LanguageSwitcher />
+                </div>
+
+                <button
+                    className="mt-4 rounded-lg bg-[#E6007E] py-3 font-semibold hover:bg-[#FF2E93]"
+                >
+                    {t("quote")}
+                </button>
+
+            </SheetContent>
+
+        </Sheet>
+
+        </div>
+    </div>
     </header>
   );
 }
