@@ -78,10 +78,20 @@ export default function Navbar() {
         <Sheet>
 
             <SheetTrigger>
-                <button>
-                    <Menu />
+                <button
+                    aria-label="Open navigation menu"
+                    className="
+                        flex h-10 w-10 items-center justify-center
+                        rounded-lg
+                        border border-[#2C2C2C]
+                        bg-[#141414]
+                        text-white
+                        transition-all
+                        hover:border-[#E6007E]
+                        hover:bg-[#1C1C1C]"
+                >
+                    <Menu size={20} />
                 </button>
-
             </SheetTrigger>
 
             <SheetContent
