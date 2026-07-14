@@ -4,7 +4,14 @@ import {Link} from "@/i18n/navigation";
 import Logo from "next/image";
 import { useTranslations } from "next-intl";
 import LanguageSwitcher from "./LanguageSwitcher";
-import {Menu} from "lucide-react";
+import {
+    Menu,
+    Home,
+    Shield,
+    User,
+    Newspaper,
+    Mail
+} from "lucide-react";
 import {
     Sheet,
     SheetContent,
@@ -96,39 +103,46 @@ export default function Navbar() {
 
             <SheetContent
                 side="right"
-                className="w-[320px] border-[#2C2C2C] bg-[#080808] text-white"
+                className="w-[360px] border-[#2C2C2C] bg-[#080808] text-white px-6 py-8"
             >
+                <div className="mb-8 border-b border-[#2C2C2C] pb-6">
+                    <h2 className="text-2xl font-bold text-white">
+                        PatchRoot
+                    </h2>
+                </div>
+                <div className="mt-10 flex flex-col gap-2">
 
-                <div className="mt-10 flex flex-col gap-6">
-
-                    <Link href="/">
-                        {t("home")}
+                    <Link href="/" className="flex items-center gap-3 rounded-xl px-4 py-3 font-medium text-[#D9D9D9] transition-all hover:bg-[#141414] hover:text-white hover:translate-x-1">
+                        <Home size={18}/> {t("home")}
                     </Link>
 
-                    <Link href="/services">
-                        {t("services")}
+                    <Link href="/services" className="flex items-center gap-3 rounded-xl px-4 py-3 font-medium text-[#D9D9D9] transition-all hover:bg-[#141414] hover:text-white hover:translate-x-1">
+                        <Shield size={18}/> {t("services")}
                     </Link>
 
-                    <Link href="/about">
-                        {t("about")}
+                    <Link href="/about" className="flex items-center gap-3 rounded-xl px-4 py-3 font-medium text-[#D9D9D9] transition-all hover:bg-[#141414] hover:text-white hover:translate-x-1">
+                        <User size={18}/> {t("about")}
                     </Link>
 
-                    <Link href="/blog">
-                        {t("blog")}
+                    <Link href="/blog" className="flex items-center gap-3 rounded-xl px-4 py-3 font-medium text-[#D9D9D9] transition-all hover:bg-[#141414] hover:text-white hover:translate-x-1">
+                        <Newspaper size={18}/> {t("blog")}
                     </Link>
 
-                    <Link href="/contact">
-                        {t("contact")}
+                    <Link href="/contact" className="flex items-center gap-3 rounded-xl px-4 py-3 font-medium text-[#D9D9D9] transition-all hover:bg-[#141414] hover:text-white hover:translate-x-1">
+                        <Mail size={18}/> {t("contact")}
                     </Link>
 
                 </div>
 
                 <div className="mt-6 border-t border-[#2C2C2C] pt-6">
-                    <LanguageSwitcher />
+                    <p className="mb-3 text-sm font-medium text-[#D9D9D9]">
+                        {t("language")}
+                    </p>
+                    <LanguageSwitcher compact={false} />
                 </div>
 
                 <button
-                    className="mt-4 rounded-lg bg-[#E6007E] py-3 font-semibold hover:bg-[#FF2E93]"
+                    className="mt-8 w-full rounded-xl bg-[#E6007E] py-4 font-semibold text-lg transition-all hover:bg-[#FF2E93] hover:shadow-lg hover:shadow-[#E6007E]/20"
                 >
                     {t("quote")}
                 </button>

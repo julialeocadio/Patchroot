@@ -29,7 +29,11 @@ const languages = [
   },
 ] as const;
 
-export default function LanguageSwitcher() {
+type LanguageSwitcherProps = {
+    compact?: boolean;
+}
+
+export default function LanguageSwitcher({ compact = false }: LanguageSwitcherProps) {
   const locale = useLocale();
 
   const pathname = usePathname();
@@ -64,9 +68,9 @@ export default function LanguageSwitcher() {
         >
           <Globe size={16} />
 
-          {current.flag}
+          <span>{current.flag}</span>
 
-          {current.label}
+          {!compact && <span>{current.label}</span>}
         </button>
 
       </DropdownMenuTrigger>
