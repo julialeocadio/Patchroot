@@ -1,6 +1,7 @@
 import {NextIntlClientProvider} from "next-intl";
 import {getMessages} from "next-intl/server";
 import { Metadata } from "next";
+
 import OrganizationSchema from "@/components/seo/OrganizationSchema";
 import ProfessionalServiceSchema from "@/components/seo/ProfessionalServiceSchema";
 
@@ -123,17 +124,10 @@ export default async function LocaleLayout({
     const messages = await getMessages();
 
     return (
-        <html>
-            <body>
-                <OrganizationSchema />
-
-                <ProfessionalServiceSchema />
-
-                <NextIntlClientProvider
-                    messages={messages}>
-                    {children}
-                </NextIntlClientProvider>
-            </body>
-        </html>
+        <NextIntlClientProvider messages={messages}>
+            <OrganizationSchema />
+            <ProfessionalServiceSchema />
+            {children}
+        </NextIntlClientProvider>
     );
 }
