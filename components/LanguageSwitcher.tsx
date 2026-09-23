@@ -51,27 +51,25 @@ export default function LanguageSwitcher({ compact = false }: LanguageSwitcherPr
   return (
     <DropdownMenu>
 
-      <DropdownMenuTrigger>
-
-        <button
+      <DropdownMenuTrigger
           className="
-            flex items-center gap-2
-            rounded-lg
-            border border-[#2C2C2C]
-            bg-[#141414]
-            px-4 py-2
-            text-sm
-            text-white
-            transition
-            hover:border-[#E6007E]
-          "
-        >
+          flex items-center gap-2
+          rounded-lg
+          border border-[#2C2C2C]
+          bg-[#141414]
+          px-4 py-2
+          text-sm
+          text-white
+          transition
+          hover:border-[#E6007E]
+        ">
+
+
           <Globe size={16} />
 
           <span>{current.flag}</span>
 
           {!compact && <span>{current.label}</span>}
-        </button>
 
       </DropdownMenuTrigger>
 
