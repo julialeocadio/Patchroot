@@ -88,7 +88,16 @@
     "Blog": {
         "title": "Blog",
         "subtitle": "Manténgase al día con las últimas noticias y artículos de PatchRoot Tech.",
-        "readMore": "Leer Más"
+        "readMore": "Leer Más",
+        "title2": "Seguridad, tecnología,",
+        "titleAccent": " sin ruido",
+        "noArticles": "Todavía no hay artículos publicados.",
+        "paragraph": "Información práctica sobre ciberseguridad, pruebas de penetración, desarrollo seguro, privacidad y las tecnologías que están dando forma a la seguridad digital.",
+        "featuredArticles": "Artículos destacados",
+        "read": "Leer artículo",
+        "more": "Más de PatchRoot",
+        "latest": "Últimos artículos",
+        "minRead": "min de lectura"
     },
 
     "About": {

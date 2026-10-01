@@ -2,6 +2,9 @@ import {NextIntlClientProvider} from "next-intl";
 import {getMessages} from "next-intl/server";
 import { Metadata } from "next";
 
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+
 import OrganizationSchema from "@/components/seo/OrganizationSchema";
 import ProfessionalServiceSchema from "@/components/seo/ProfessionalServiceSchema";
 
@@ -127,7 +130,14 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
             <OrganizationSchema />
             <ProfessionalServiceSchema />
+
+            <Navbar />
+
+            <main className="min-h-screen bg-[#080808] pt-20">
             {children}
+            </main>
+
+            <Footer/>
         </NextIntlClientProvider>
     );
 }
