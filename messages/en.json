@@ -114,5 +114,18 @@
         "email": "Email",
         "message": "Message",
         "submit": "Submit"
+    },
+
+    "about": {
+        "breadcrumb": "About",
+        "heroTitle": "System",
+        "heroAccent": "Online_",
+        "tagline": "Development & Security",
+        "description": "We build secure digital experiences, develop practical solutions, and help businesses create a stronger foundation for their online presence.",
+        "specialties": {
+            "development": "Web Development",
+            "cybersecurity": "Cybersecurity",
+            "secureSystems": "Secure Systems"
+        }
     }
 }

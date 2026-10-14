@@ -114,5 +114,18 @@
         "email": "Correo electrónico",
         "message": "Mensaje",
         "submit": "Enviar"
+    },
+
+    "about": {
+        "breadcrumb": "Sobre nosotros",
+        "heroTitle": "Sistema",
+        "heroAccent": "Online_",
+        "tagline": "Desarrollo y Seguridad",
+        "description": "Creamos experiencias digitales seguras, desarrollamos soluciones prácticas y ayudamos a las empresas a reforzar su presencia en internet.",
+        "specialties": {
+            "development": "Desarrollo Web",
+            "cybersecurity": "Ciberseguridad",
+            "secureSystems": "Sistemas Seguros"
+        }
     }
 }
