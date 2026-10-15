@@ -126,6 +126,25 @@
             "development": "Desarrollo Web",
             "cybersecurity": "Ciberseguridad",
             "secureSystems": "Sistemas Seguros"
+        },
+            "team": {    
+        "eyebrow": "Equipo / Sistema",
+        "title": "Las personas detrás de PatchRoot_",
+        "description": "Habilidades diferentes, una misión compartida: crear mejores experiencias digitales teniendo en cuenta la seguridad.",
+        "member": "Miembro",
+        "memberCount": "{count, plural, =0 {Ningún miembro} one {# miembro} other {# miembros}}",
+        "julia": {
+            "role": "Directora de Operaciones (COO) y Especialista en Seguridad",
+            "bio": "Trabaja en las áreas de desarrollo web, ciberseguridad y gestión operativa, combinando conocimientos técnicos con un enfoque centrado en soluciones digitales seguras, eficientes y fiables."
+        },
+        "paula": {
+            "role": "Directora Ejecutiva (CEO) y Abogada en Brasil",
+            "bio": "Lidera las operaciones de la empresa, aportando su formación jurídica y experiencia en gestión administrativa y desarrollo organizativo."
+        },
+        "juan": {
+            "role": "Especialista en Desarrollo",
+            "bio": "Se especializa en el desarrollo de software, creando soluciones funcionales con especial atención al código limpio, el rendimiento y la seguridad."
+        }
         }
     }
 }

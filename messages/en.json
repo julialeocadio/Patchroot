@@ -126,6 +126,27 @@
             "development": "Web Development",
             "cybersecurity": "Cybersecurity",
             "secureSystems": "Secure Systems"
+        },
+        "team": {
+        "eyebrow": "Team / System",
+        "title": "People behind PatchRoot_",
+        "description": "Different skills, one shared mission: building better digital experiences with security in mind.",
+        "member": "Member",
+        "memberCount": "{count, plural, =0 {No members} one {# member} other {# members}}",
+        "julia": {
+            "role": "Chief Operating Officer & Security Expert",
+            "bio": "Works across web development, cybersecurity, and operational management, combining technical expertise with a focus on secure, efficient, and reliable digital solutions."
+        },
+        "paula": {
+            "role": "Chief Executive Officer & Brazilian-Licensed Lawyer",
+            "bio": "Leads business operations, bringing a legal background and expertise in administrative management, and organizational development."
+        },
+        "juan": {
+            "role": "Developer Specialist",
+            "bio": "Specializes in development, buinding functional solutions with an emphasis on clean code, performance, and security"
         }
     }
+    }
+
+    
 }
