@@ -146,6 +146,59 @@
             "bio": "Especializa-se em desenvolvimento de software, criando soluções funcionais com foco em código limpo, desempenho e segurança."
         }
         }
+    },
+
+    "contact": {
+        "eyebrow": "Canal de Comunicação",
+        "channelId": "CANAL / 001",
+        "introLabel": "Tem um projeto em mente?",
+        "title": "Vamos criar algo",
+        "titleAccent": "seguro juntos",
+        "description": "Conte-nos o que você está desenvolvendo. Seja um site, uma avaliação de segurança ou melhorias em um sistema existente, vamos explorar como a PatchRoot pode ajudar.",
+        "services": {
+            "development": {
+                "title": "Desenvolvimento Web",
+                "description": "Sites e experiências digitais desenvolvidos com foco em usabilidade, manutenção e segurança."
+            },
+            "security": {
+                "title": "Cibersegurança",
+                "description": "Testes de segurança, avaliações de vulnerabilidade e recomendações práticas para fortalecer seus sistemas."
+            }
+        },
+        "directContact": "Prefere entrar em contato diretamente?",
+        "emailAddress": "patchroot.tech@gmail.com",
+        "form": {
+            "eyebrow": "Iniciar Contato",
+            "title": "Conte-nos sobre seu projeto",
+            "description": "Preencha os campos abaixo para enviar sua mensagem à nossa equipe.",
+            "name": "Nome",
+            "namePlaceholder": "Seu nome",
+            "email": "E-mail",
+            "emailPlaceholder": "seu@email.com",
+            "service": "Do que você precisa?",
+            "servicePlaceholder": "Selecione um serviço",
+            "serviceOptions": {
+                "web": "Desenvolvimento Web",
+                "security": "Cibersegurança",
+                "both": "Desenvolvimento Web + Cibersegurança",
+                "other": "Outro assunto"
+            },
+            "message": "Detalhes do projeto",
+            "messagePlaceholder": "Conte-nos sobre seus objetivos, requisitos ou desafios...",
+            "submit": "Enviar mensagem",
+            "sending": "Enviando mensagem...",
+            "success": "Recebemos sua mensagem. Obrigado por entrar em contato com a PatchRoot. Vamos analisar sua solicitação e responder em breve.",
+            "successNoConfirmation": "A PatchRoot recebeu sua mensagem, mas não foi possível enviar o e-mail de confirmação automático. Você não precisa enviar o formulário novamente.",
+            "error": "Não foi possível enviar sua mensagem agora. Tente novamente mais tarde ou entreem contato diretamente por e-mail."
+        },
+        "privacy": {
+            "before": "Ao enviar este formulário, você concorda com o tratamento das suas informações conforme descritp em nossa ",
+            "link": "Política de Privacidade",
+            "after": "."
+        },
+        "footer": {
+            "left": "Fim da transmissão",
+            "right": "PatchRoot / Desenvolvimento e Segurança"
+        }
     }
-    
 }

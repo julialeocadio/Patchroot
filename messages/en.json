@@ -146,7 +146,59 @@
             "bio": "Specializes in development, buinding functional solutions with an emphasis on clean code, performance, and security"
         }
     }
-    }
+    },
 
-    
+    "contact": {
+        "eyebrow": "Communication Channel",
+        "channelId": "CHANNEL / 001",
+        "introLabel": "Have a project in mind?",
+        "title": "Let's build something",
+        "titleAccent": "secure together",
+        "description": "Tell us what you're working on. Whether you need a website,a security assessment, or help improving an existing system, let's explore how PatchRoot can help.",
+        "services": {
+            "development": {
+                "title": "Web Development",
+                "description": "Websites and digital experiences built with usability, maintainability, and security in mind."
+            },
+            "security": {
+                "title": "Cybersecurity",
+                "description": "Security testing, vulnerability assessments, and practical recommendations to strengthen your systems."
+            }
+        },
+        "directContact": "Prefer direct contact?",
+        "emailAddress": "patchroot.tech@gmail.com",
+        "form": {
+            "eyebrow": "Initialize Contact",
+            "title": "Tell us about your projects",
+            "description": "Complete the fields below and your inquiry will be sent to our team.",
+            "name": "Name",
+            "namePlaceholder": "Your name",
+            "email": "Email address",
+            "emailPlaceholder": "your@email.com",
+            "service": "What do you need?",
+            "servicePlaceholder": "Select a service",
+            "serviceOptions": {
+                "web": "Web Development",
+                "security": "Cybersecurity",
+                "both": "Web Development + Cybersecurity",
+                "other": "Something else"
+            },
+            "message": "Project details",
+            "messagePlaceholder": "Tell us about your goals, requirements, or challenges...",
+            "submit": "Send inquiry",
+            "sending": "Sending inquiry...",
+            "success": "Your inquiry has been received. Thank you for contacting PatchRoot. We'll review your message and get back to you.",
+            "successNoConfirmation": "Your inquiry has been received by PatchRoot, but we couldn't send the automatic confirmation email. You don't need to submit the form again.",
+            "error": "We couldn't send your inquiry right now. Please try again later or contact us directly by email."
+        },
+        "privacy": {
+            "before": "By submitting this form, you agree to the processing of your information as described in our",
+            "link": "Privacy Policy",
+            "after": "."
+        },
+        "footer": {
+            "left": "End of transmission",
+            "right": "PatchRoot / Development & Security"
+        }
+    }
 }
