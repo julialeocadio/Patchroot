@@ -19,7 +19,7 @@ export const team: TeamMember[] = [
     {
         id: "paula",
         name: "Paula Juvenal",
-        image: "/",
+        image: "/images/Paula.png",
         roleKey: "paula.role",
         bioKey: "paula.bio",
         skills: ["Legal Expertise", "Operations", "Coordination", "Leadership"]
