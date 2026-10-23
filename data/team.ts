@@ -27,7 +27,7 @@ export const team: TeamMember[] = [
     {
         id: "juan",
         name: "Juan Pires Da Silva",
-        image: "/",
+        image: "/images/juan.png",
         roleKey: "juan.role",
         bioKey: "juan.bio",
         skills: ["Cybersecurity", "Python", "SQL", "React"]
