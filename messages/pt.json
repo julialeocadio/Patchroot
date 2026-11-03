@@ -200,5 +200,8 @@
             "left": "Fim da transmissão",
             "right": "PatchRoot / Desenvolvimento e Segurança"
         }
+    },
+    "privacy": {
+        "onThisPage": "Nesta página"
     }
 }

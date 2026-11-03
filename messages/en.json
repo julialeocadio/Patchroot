@@ -200,5 +200,8 @@
             "left": "End of transmission",
             "right": "PatchRoot / Development & Security"
         }
+    },
+    "privacy": {
+        "onThisPage": "On this page"
     }
 }
