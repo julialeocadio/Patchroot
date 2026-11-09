@@ -1,5 +1,6 @@
 import { ShieldCheck, Code2, ArrowRight } from "lucide-react";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 export default function Services() {
   const t = useTranslations("Services");
@@ -36,6 +37,9 @@ export default function Services() {
 
           {/* Card 1 */}
 
+          <Link
+            href={`/services/cybersecurity`}
+            className="...">
           <div className="group rounded-3xl border border-[#2C2C2C] bg-[#141414] p-10 transition duration-300 hover:border-[#E6007E] hover:-translate-y-2">
 
             <div className="mb-8 flex h-16 w-16 items-center justify-center rounded-2xl bg-[#E6007E]/10">
@@ -82,9 +86,13 @@ export default function Services() {
             </button>
 
           </div>
+          </Link>
 
           {/* Card 2 */}
 
+          <Link
+            href={`/services/web-development`}
+            className="...">
           <div className="group rounded-3xl border border-[#2C2C2C] bg-[#141414] p-10 transition duration-300 hover:border-[#E6007E] hover:-translate-y-2">
 
             <div className="mb-8 flex h-16 w-16 items-center justify-center rounded-2xl bg-[#E6007E]/10">
@@ -131,6 +139,7 @@ export default function Services() {
             </button>
 
           </div>
+          </Link>
 
         </div>
 

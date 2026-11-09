@@ -203,5 +203,119 @@
     },
     "privacy": {
         "onThisPage": "On this page"
+    },
+    "servicesPage": {
+        "metaTitle": "Services | PatchRoot",
+        "metaDescription": "Explore PatchRoot's web development and cybersecurity services.",
+        "eyebrow": "WHAT WE DO",
+        "heading": "Build with confidence. Secure by design.",
+        "intro": "We offer web development and cybersecurity services to help business build, improve, and protect their digital presence."
+    },
+    "webDevelopmentPage": {
+        "metaTitle": "Web Development | PatchRoot",
+        "metaDescription": "Custom website development, reponsive design, e-commerce, and website maintenace for businesses.",
+        "eyebrow": "WEB DEVELOPMENT",
+        "heading": "Websites built for your business.",
+        "intro": "We create modern, responsive websites tailored to your business needs. From custom websites and landing landing pages to e-commerce solutions, we combine thoughtful design, reliable technology, and security-conscious development.",
+        "services": {
+            "eyebrow": "WHAR WE OFFER",
+            "heading": "Web development tailored to your needs",
+            "intro": "Whether you're building a new digital presence or improving an existing website, we provide solutions designed around your goals.",
+            "custom": {
+                "title": "Custom Website Development",
+                "description": "Websites developed around your business, goals, and unique requirements.",
+                "items": [
+                    "Custom functionality",
+                    "Tailored to your needs"
+                ]
+            },
+            "landing": {
+                "title": "Landing Pages",
+                "description": "Focused landing pages designed to communicate your message and support your business objectives.",
+                "items": [
+                    "Mobile-friendly layouts",
+                    "Cross-device compatibility"
+                ]
+            },
+            "responsive": {
+                "title": "Responsive Web Design",
+                "description": "Websites designed to provide a consistent experience across desktop, tablet, and mobile devices.",
+                "items": [
+                    "Campaign-specific pages",
+                    "Clear calls to action"
+                ]
+            },
+            "redesign": {
+                "title": "Website Redesign",
+                "description": "Give your existing website a fresh look with improved structure, usability, and functionality",
+                "items": [
+                    "Visual and structural improvements",
+                    "User experience enhancements"
+                ]
+            },
+            "ecommerce": {
+                "title": "E-commerce Development",
+                "description": "Online stores designed to help your business present and sell products or services online.",
+                "items": [
+                    "Product and service presentation",
+                    "E-commerce functionality"
+                ]
+            },
+            "maintenance": {
+                "title": "Maintenance & Integrations",
+                "description": "Keep your website updated and connected with the tools and services your business relies on.",
+                "items": [
+                    "Website updates and maintenance",
+                    "API, form, and email integrations"
+                ]
+            }
+        },
+
+        "process": {
+            "eyebrow": "HOW WE WORK",
+            "heading": "From idea to launch",
+            "intro": "A structured approach helps us turn your requirements into a website that supports your business goals.",
+            "step1": {
+                "title": "Discovery & Planning",
+                "description": "We learn about your business, understand your goals, and define the project's requirements and scope."
+            },
+            "step2": {
+                "title": "Discovery & Development",
+                "description": "We build your website with a focus on usability, responsive design, functionality, and your brand identity."
+            },
+            "step3": {
+                "title": "Testing & Refinement",
+                "description": "We review the website's functionality, responsiveness, and compatibility, making adjustments where needed."
+            },
+            "step4": {
+                "title": "Deployment & Launch",
+                "description": "We prepare the website for release and deploy it to the selected hosting environment."
+            }
+        },
+
+        "technology": {
+            "eyebrow": "OUR TECHNOLOGY",
+            "heading": "Ther right tools for the right solution",
+            "intro": "We work with modern frameworks, programming languages, and platforms to develop websites tailored to each project's requirements.",
+            "frontend": {
+                "title": "Frontend Development",
+                "description": "Building responsive, interactive, and user-friendly web experiences."
+            },
+            "backend": {
+                "title": "Backend & Data",
+                "description": "Developing application logic and working with data to support website functionality."
+            },
+            "platforms": {
+                "title": "CMS & Deployment",
+                "description": "Managing website content and deploying projects through reliable platforms."
+            }
+        },
+
+        "cta": {
+            "eyebrow": "LET'S BUILD SOMETHING",
+            "heading": "Have a project in mind?",
+            "description": "Whether you need a new website, want to improve an existing one, or have a specific idea in mind, let's discuss how we can bring it to life.",
+            "button": "Discuss Your Project"
+        }
     }
 }

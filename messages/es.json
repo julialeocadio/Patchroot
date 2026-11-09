@@ -202,5 +202,117 @@
     },
     "privacy": {
         "onThisPage": "En esta página"
+    },
+    "servicesPage": {
+        "metaTitle": "Servicios | PatchRoot",
+        "metaDescription": "Descubre los servicios de desarrollo web y ciberseguridad de PatchRoot.",
+        "eyebrow": "QUÉ HACEMOS",
+        "heading": "Desarrolla con confianza. Protege desde el principio.",
+        "intro": "Combinamos desarrollo web y ciberseguridad para ayudar a las empresas a crear, mejorar y proteger su presencia digital."
+    },
+    
+    "webDevelopmentPage": {
+        "metaTitle": "Desarrollo Web | PatchRoot",
+        "metaDescription": "Desarrollo de páginas web personalizadas, diseño adaptable, tiendas online y mantenimiento de sitios web para empresas.",
+        "eyebrow": "DESARROLLO WEB",
+        "heading": "Páginas web diseñadas para tu negocio. Preparadas para lo que viene.",
+        "intro": "Creamos páginas web modernas y adaptables, ajustadas a las necesidades de tu negocio. Desde páginas web personalizadas y landing pages hasta soluciones de comercio electrónico, combinamos diseño estratégico, tecnología fiable y desarrollo con la seguridad en mente.",
+        "services": {
+            "eyebrow": "LO QUE OFRECEMOS",
+            "heading": "Desarrollo web adaptado a tus necesidades",
+            "intro": "Tanto si estás creando una nueva presencia digital como si quieres mejorar una página web existente, ofrecemos soluciones diseñadas en función de tus objetivos.",
+            "custom": {
+                "title": "Desarrollo Web a Medida",
+                "description": "Páginas web desarrolladas en función de tu negocio, tus objetivos y tus necesidades específicas.",
+                "items": [
+                    "Funcionalidades personalizadas",
+                    "Páginas web corporativas y empresariales"
+                ]
+            },
+            "landing": {
+                "title": "Landing Pages",
+                "description": "Páginas diseñadas para comunicar tu mensaje y contribuir a los objetivos de tu negocio.",
+                "items": [
+                    "Páginas específicas para campañas",
+                    "Llamadas a la acción claras"
+                ]
+            },
+            "responsive": {
+                "title": "Diseño Adaptable",
+                "description": "Páginas web diseñadas para ofrecer una experiencia coherente en ordenadores, tabletas y dispositivos móviles.",
+                "items": [
+                    "Diseños adaptados a dispositivos móviles",
+                    "Compatibilidad entre dispositivos"
+                ]
+            },
+            "redesign": {
+                "title": "Rediseño Web",
+                "description": "Renueva tu página web con una imagen actualizada y mejoras en su estructura, usabilidad y funcionalidades.",
+                "items": [
+                    "Mejoras visuales y estructurales",
+                    "Optimización de la experiencia de usuario"
+                ]
+            },
+            "ecommerce": {
+                "title": "Desarrollo de E-commerce",
+                "description": "Tiendas online diseñadas para ayudar a tu negocio a presentar y vender productos o servicios.",
+                "items": [
+                    "Presentación de productos y servicios",
+                    "Funcionalidades de comercio electrónico"
+                ]
+            },
+            "maintenance": {
+                "title": "Mantenimiento e Integraciones",
+                "description": "Mantén tu página web actualizada y conectada con las herramientas y servicios que utiliza tu negocio.",
+                "items": [
+                    "Actualizaciones y mantenimiento web",
+                    "Integraciones con APIs, formularios y correo electrónico"
+                ]
+            }
+        },
+        "process": {
+            "eyebrow": "CÓMO TRABAJAMOS",
+            "heading": "De la idea al lanzamiento",
+            "intro": "Un enfoque estructurado nos permite transformar tus requisitos en una página web alineada con los objetivos de tu negocio.",
+            "step1": {
+                "title": "Análisis y Planificación",
+                "description": "Conocemos tu negocio, comprendemos tus objetivos y definimos los requisitos y el alcance del proyecto."
+            },
+            "step2": {
+                "title": "Diseño y Desarrollo",
+                "description": "Desarrollamos tu página web centrándonos en la usabilidad, el diseño adaptable, las funcionalidades y la identidad de tu marca."
+            },
+            "step3": {
+                "title": "Pruebas y Mejoras",
+                "description": "Comprobamos las funcionalidades, la adaptación a diferentes dispositivos y la compatibilidad de la página web, realizando los ajustes necesarios."
+            },
+            "step4": {
+                "title": "Implementación y Lanzamiento",
+                "description": "Preparamos la página web para su publicación y la desplegamos en el entorno de alojamiento seleccionado."
+            }
+        },
+        "technology": {
+            "eyebrow": "NUESTRAS TECNOLOGÍAS",
+            "heading": "Las herramientas adecuadas para cada solución",
+            "intro": "Trabajamos con frameworks, lenguajes de programación y plataformas modernas para desarrollar páginas web adaptadas a los requisitos de cada proyecto.",
+            "frontend": {
+                "title": "Desarrollo Frontend",
+                "description": "Creación de experiencias web adaptables, interactivas e intuitivas."
+            },
+            "backend": {
+                "title": "Backend y Datos",
+                "description": "Desarrollo de la lógica de las aplicaciones y gestión de datos para dar soporte a las funcionalidades de las páginas web."
+            },
+            "platforms": {
+                "title": "CMS e Implementación",
+                "description": "Gestión de contenidos y despliegue de proyectos mediante plataformas fiables."
+            }
+        },
+        "cta": {
+            "eyebrow": "VAMOS A CREAR ALGO",
+            "heading": "¿Tienes un proyecto en mente?",
+            "description": "Tanto si necesitas una nueva página web como si quieres mejorar una existente o tienes una idea concreta, hablemos sobre cómo hacerla realidad.",
+            "button": "Hablemos de tu proyecto"
+        }
     }
 }

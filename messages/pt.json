@@ -203,5 +203,117 @@
     },
     "privacy": {
         "onThisPage": "Nesta página"
+    },
+    "servicesPage": {
+        "metaTitle": "Serviços | PatchRoot",
+        "metaDescription": "Conheça os serviços de desenvolvimento web e cibersegurança da PatchRoot.",
+        "eyebrow": "O QUE FAZEMOS",
+        "heading": "Desenvolva com confiança. Proteja desde o início.",
+        "intro": "Oferecemos serviços de desenvolvimento web e cibersegurança para ajudar empresas a criar, melhorar e proteger sua presença digital."
+    },
+
+    "webDevelopmentPage": {
+        "metaTitle": "Desenvolvimento Web | PatchRoot",
+        "metaDescription": "Desenvolvimento de websites personalizados, design responsivo, lojas online e manutenção de sites para empresas.",
+        "eyebrow": "DESENVOLVIMENTO WEB",
+        "heading": "Websites desenvolvidos para o seu negócio. Preparados para o futuro.",
+        "intro": "Criamos websites modernos e responsivos, adaptados às necessidades do seu negócio. Desde websites personalizados e landing pages até soluções de comércio eletrónico, combinamos design estratégico, tecnologias confiáveis e desenvolvimento com foco na segurança.",
+        "services": {
+            "eyebrow": "O QUE OFERECEMOS",
+            "heading": "Desenvolvimento web adaptado às suas necessidades",
+            "intro": "Quer esteja a criar uma nova presença digital ou a melhorar um website existente, oferecemos soluções desenvolvidas em função dos seus objetivos.",
+            "custom": {
+                "title": "Desenvolvimento de Websites Personalizados",
+                "description": "Websites desenvolvidos de acordo com o seu negócio, objetivos e necessidades específicas.",
+                "items": [
+                    "Funcionalidades personalizadas",
+                    "Websites empresariais e institucionais"
+                ]
+            },
+        "landing": {
+            "title": "Landing Pages",
+            "description": "Páginas focadas em comunicar a sua mensagem e apoiar os objetivos do seu negócio.",
+            "items": [
+                "Páginas específicas para campanhas",
+                "Chamadas à ação claras"
+            ]
+        },
+        "responsive": {
+            "title": "Design Responsivo",
+            "description": "Websites concebidos para proporcionar uma experiência consistente em computadores, tablets e dispositivos móveis.",
+            "items": [
+                "Layouts adaptados a dispositivos móveis",
+                "Compatibilidade entre dispositivos"
+            ]
+        },
+        "redesign": {
+            "title": "Redesign de Websites",
+            "description": "Renove o seu website com uma apresentação atualizada e melhorias na estrutura, usabilidade e funcionalidades.",
+            "items": [
+                "Melhorias visuais e estruturais",
+                "Otimização da experiência do utilizador"
+            ]
+        },
+        "ecommerce": {
+            "title": "Desenvolvimento de E-commerce",
+            "description": "Lojas online concebidas para ajudar o seu negócio a apresentar e comercializar produtos ou serviços.",
+            "items": [
+                "Apresentação de produtos e serviços",
+                "Funcionalidades de comércio eletrónico"
+            ]
+        },
+        "maintenance": {
+            "title": "Manutenção e Integrações",
+            "description": "Mantenha o seu website atualizado e conectado às ferramentas e serviços utilizados pelo seu negócio.",
+            "items": [
+                "Atualizações e manutenção de websites",
+                "Integrações com APIs, formulários e email"
+                ]
+            }
+        },
+        "process": {
+            "eyebrow": "COMO TRABALHAMOS",
+            "heading": "Da ideia ao lançamento",
+            "intro": "Uma abordagem estruturada permite transformar os seus requisitos num website alinhado com os objetivos do seu negócio.",
+            "step1": {
+                "title": "Análise e Planeamento",
+                "description": "Conhecemos o seu negócio, compreendemos os seus objetivos e definimos os requisitos e o âmbito do projeto."
+            },
+            "step2": {
+                "title": "Design e Desenvolvimento",
+                "description": "Desenvolvemos o seu website com foco na usabilidade, no design responsivo, nas funcionalidades e na identidade da sua marca."
+            },
+            "step3": {
+                "title": "Testes e Aperfeiçoamento",
+                "description": "Verificamos as funcionalidades, a capacidade de adaptação a diferentes dispositivos e a compatibilidade do website, realizando os ajustes necessários."
+            },
+            "step4": {
+                "title": "Implementação e Lançamento",
+                "description": "Preparamos o website para publicação e realizamos a sua implementação no ambiente de alojamento selecionado."
+            }
+        },
+        "technology": {
+            "eyebrow": "AS NOSSAS TECNOLOGIAS",
+            "heading": "As ferramentas certas para cada solução",
+            "intro": "Trabalhamos com frameworks, linguagens de programação e plataformas modernas para desenvolver websites adaptados aos requisitos de cada projeto.",
+            "frontend": {
+                "title": "Desenvolvimento Frontend",
+                "description": "Criação de experiências web responsivas, interativas e intuitivas."
+            },
+            "backend": {
+                "title": "Backend e Dados",
+                "description": "Desenvolvimento da lógica das aplicações e gestão de dados para suportar as funcionalidades dos websites."
+            },
+            "platforms": {
+                "title": "CMS e Implementação",
+                "description": "Gestão de conteúdos e implementação de projetos através de plataformas confiáveis."
+            }
+        },
+        "cta": {
+            "eyebrow": "VAMOS CRIAR ALGO",
+            "heading": "Tem um projeto em mente?",
+            "description": "Quer precise de um novo website, pretenda melhorar um existente ou tenha uma ideia específica, vamos conversar sobre como a podemos concretizar.",
+            "button": "Fale connosco sobre o seu projeto"
+        }
     }
 }
